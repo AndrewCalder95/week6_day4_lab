@@ -1,3 +1,53 @@
 body {
   font-family: Palatino;
 }
+
+#reading-list {
+  list-style: none;
+  justify-content: flex-start;
+  height: 400px;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.show-title {
+  font-size: 24pt;
+}
+
+.show-author { 
+  font-size: 18pt;
+}
+
+.show-category {
+  font-size: 16pt;
+}
+
+.flex {
+  display: flex;
+}
+
+.form-item {
+  margin: 0px 30px;
+  flex-direction: column;
+}
+
+#new-item-form {
+  flex-direction: column;
+}
+
+.button {
+  width: 100px;
+  margin: 20px 30px;
+}
+
+
+.list-item {
+  padding: 0 10px;
+  height: 180px;
+  min-width: 250px;
+  flex-direction: column;
+  background-color: rgb(172, 201, 232);
+  margin: 5px;
+  border-radius: 15px;
+  justify-content: space-evenly;
+}
